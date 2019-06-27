@@ -1,5 +1,7 @@
 #!/bin/bash
 
+OPENCV_VERSION="4.1.0"
+
 sudo apt-get update && \
 sudo apt-get install -y --fix-missing --no-install-recommends \
 wget \
