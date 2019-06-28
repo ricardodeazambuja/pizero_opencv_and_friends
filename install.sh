@@ -90,6 +90,7 @@ cd / && \
 sudo rm -rf /opt/opencv-${OPENCV_VERSION} && \
 sudo pip3 --no-cache-dir install dlib && \
 sudo pip3 --no-cache-dir install scikit-image && \
+sudo pip3 --no-cache-dir install cython && \
 sudo pip3 --no-cache-dir install scikit-learn && \
 sudo pip3 --no-cache-dir install scikit-video && \
 sudo rm -rf /tmp/* /var/tmp/*
